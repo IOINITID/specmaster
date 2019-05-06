@@ -1,0 +1,2537 @@
+@font-face {
+    font-family: "Gotham Pro";
+    src: local("Gotham Pro"), url("../fonts/GothamPro.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Gotham Pro Medium";
+    src: local("Gotham Pro Medium"), url("../fonts/GothamPro-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Gotham Pro Bold";
+    src: local("Gotham Pro Bold"), url("../fonts/GothamPro-Bold.woff") format("woff");
+}
+
+.main__header-box-shadow {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.main__header-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main__header-menu-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main__header-navigation-item a {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.col-lg-3.main__header-support-wrapper {
+    padding: 0;
+}
+
+.main__header-support-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main__header-support-wrapper-mobile {
+    display: none;
+}
+
+.main__header-support-wrapper p {
+    color: #93959e;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 10px;
+    cursor: default;
+}
+
+.main__header-support-wrapper a {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #151823;
+}
+
+.main__header-city-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main__header-city-link {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.dropdown-toggle::after {
+    border-top: .3em solid #1dc21d;
+}
+
+.main__footer-background {
+    background-color: #151823;
+    padding: 5% 0;
+}
+
+.main__footer-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main__footer-block-first-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__footer-block-second-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__footer-contacts-wrapper {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.main__footer-contacts-social-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.main__footer-contacts-wrapper p {
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.main__footer-contacts-wrapper a {
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.main__footer-block-first-wrapper a {
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.main__footer-block-second-wrapper a {
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.main__menu-search-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main__menu-search {
+    padding: 3% 0;
+}
+
+.main__menu-search-catalog-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 1px solid #1dc21d;
+    background-color: #ffffff;
+    margin-right: 20px;
+    width: 25%;
+}
+
+.main__menu-search-catalog-wrapper img {
+    width: 20px;
+}
+
+.main__menu-search-catalog-wrapper a {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.main__menu-search-search-wrapper {
+    border-radius: 25px;
+    border: 1px solid #d2d2d2;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    padding: 10px 20px;
+}
+
+.main__menu-search-search-wrapper a {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    padding-right: 2%;
+}
+
+.main__menu-search-search-wrapper input {
+    border: none;
+    color: #93959e;
+    background-color: transparent;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    width: 75%;
+    outline: none;
+    border-left: 1px solid #93959e;
+    padding-left: 15px;
+}
+
+.main__menu-search-search-wrapper input::placeholder {
+    border: none;
+    color: #93959e;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    width: 75%;
+}
+
+.main__popular-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 90px;
+    padding: 3% 0;
+}
+
+.main__popular-block-wrapper p {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.main__popular-block-wrapper h3 {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.main__popular-block-wrapper a {
+    color: #1dc21d;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.main__popular-block-wrapper p:last-child {
+    color: #151823;
+    font-family: "Gotham Pro Bold";
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 26px;
+}
+
+.main__service-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 90px;
+    padding: 3% 0;
+}
+
+.main__service-block-wrapper {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.main__service-block-wrapper .col-lg-6 {
+    padding: 0 28px 0 0 !important;
+}
+
+.main__service-block-wrapper p:first-child {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.main__service-block-wrapper h3 {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.main__service-block-wrapper a {
+    color: #1dc21d;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.main__service-block-wrapper p {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main__service-block-wrapper p:last-child {
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.main__advantages-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 90px;
+    padding-bottom: 5%;
+}
+
+.main__advantages-block-wrapper img {
+    padding-bottom: 10%;
+    height: 80px;
+    object-fit: contain;
+}
+
+.main__advantages-block-wrapper h3 {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 5%;
+}
+
+.main__advantages-block-wrapper p {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__review-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0 10% 0;
+}
+
+.main__review-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.main__review-slider-wrapper img {
+    cursor: pointer;
+}
+
+.main__review-block-wrapper {
+    border: 1px solid #d2d2d2;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 3% 2% 2% 2%;
+}
+
+.main__review-block-image-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
+
+.main__review-block-image-wrapper span {
+    color: #000000;
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main__review {
+    padding: 5% 0;
+}
+
+.main__review-block-text-wrapper h3 {
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 1%;
+}
+
+.main__review-block-text-wrapper h3 span {
+    color: #1dc21d;
+    font-family: "Gotham Pro Medium";
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.main__review-block-text-wrapper p {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 12px;
+    line-height: 24px;
+    padding-bottom: 1%;
+}
+
+.main__review-block-text-wrapper p:last-child {
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 1%;
+}
+
+.main__review-send-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 7% 0 2% 0;
+}
+
+.main__review-send-wrapper a {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+    background-color: #d2d2d2;
+    padding: 1.25% 2%;
+    width: 200px;
+    text-align: center;
+    margin-right: 2%;
+    text-decoration: none;
+}
+
+.main__review-send-wrapper a:hover {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+    background-color: #1dc21d;
+    padding: 1.25% 2%;
+    width: 200px;
+    text-align: center;
+    margin-right: 2%;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.main__review-send-wrapper a:last-child {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+    background-color: #1dc21d;
+    width: 200px;
+    padding: 1.25% 2%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main__review-send-wrapper a:last-child:hover {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+    background-color: #4ace4a;
+    width: 200px;
+    padding: 1.25% 2%;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.main__review-send-wrapper a:last-child:active {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+    background-color: #148714;
+    width: 200px;
+    padding: 1.25% 2%;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.main__guarantees-block-wrapper h3 {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+
+.main__guarantees-block-wrapper p {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 5%;
+}
+
+.main__guarantees-block-wrapper a {
+    color: #1dc21d;
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.main__guarantees {
+    padding-bottom: 3%;
+}
+
+/* slick */
+
+.slick-prev:before,
+.slick-next:before {
+    color: #151823;
+    font-size: 30px;
+    position: relative;
+}
+
+.slick-prev:before {
+    left: -35px;
+    content: "";
+    background-image: url("../img/angle-left.svg");
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slick-next:before {
+    right: -35px;
+    content: "";
+    background-image: url("../img/angle-right.svg");
+    width: 35px;
+    height: 35px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slick-slide,
+.slick-cloned,
+.slick-current,
+.slick-active {
+    margin-right: 20px;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    filter: brightness(0.5);
+}
+
+.slick-dots {
+    width: 90%;
+}
+
+/* slick */
+
+.breadcrumb {
+    background-color: #1dc21d;
+    border-radius: 0;
+    align-items: center;
+}
+
+.breadcrumb-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Gotham Pro Medium";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.breadcrumb-item a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ffffff;
+}
+
+.breadcrumb-dots-white a {
+    color: #ffffff;
+}
+
+.breadcrumb-dots-white {
+    padding-left: 1%;
+    font-size: 150%;
+}
+
+.breadcrumb-item.active {
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.main__breadcrumbs-bottom-list {
+    background-color: #ffffff;
+}
+
+.main__breadcrumbs-bottom-item a {
+    color: #7b7d84;
+    border-bottom: none;
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.main__breadcrumbs-bottom-item+.main__breadcrumbs-bottom-item::before {
+    color: #7b7d84;
+}
+
+.main__breadcrumbs-bottom-item-active a {
+    color: #000000;
+    font-family: "Gotham Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.main__curtains-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 2% 0 5% 0;
+}
+
+.main__curtains-cost-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.main__curtains-banner {
+    padding: 5% 0 0 0;
+}
+
+.main__curtains-block-first h3 {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.main__curtains-block-first p {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.main__curtains-block-first p:last-child {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    text-decoration: line-through;
+}
+
+.main__curtains-block-first button {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+    border-radius: 35px;
+    background-color: #ef7c48;
+    padding: 0 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.main__curtains-block-first button:hover {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+    border-radius: 35px;
+    background-color: #f2966c;
+    padding: 0 10px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+}
+
+.main__curtains-block-first button:active {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+    border-radius: 35px;
+    background-color: #a75632;
+    padding: 0 10px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+}
+
+.main__curtains-info-wrapper p {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 5%;
+}
+
+.main__curtains-image-wrapper img {
+    height: 100%;
+}
+
+.main__examples .container .slider .slick-prev:before,
+.slick-next:before {
+    top: 0;
+}
+
+.main__examples-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 5% 0;
+}
+
+.main__examples {
+    padding: 0 0 5% 0;
+}
+
+.main__about-company {
+    padding-bottom: 5%;
+}
+
+.main__about-company-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 5%;
+}
+
+.main__about-company-text p {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__about-company-text p:last-child {
+    padding-top: 5%;
+}
+
+.main__about-company-contacts {
+    border-radius: 8px;
+    border: 1px solid #d2d2d2;
+    background-color: #ffffff;
+    padding: 2%;
+}
+
+.main__about-company-adress-title {
+    color: #1dc21d;
+    font-family: "Gotham Pro Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.main__about-company-adress-text {
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 5%;
+}
+
+.main__about-company-tel-sale-title {
+    color: #1dc21d;
+    font-family: "Gotham Pro Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.main__about-company-tel-control-title {
+    color: #1dc21d;
+    font-family: "Gotham Pro Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 5%;
+}
+
+.main__about-company-email-title {
+    color: #1dc21d;
+    font-family: "Gotham Pro Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 5%;
+}
+
+.main__about-company-contacts a {
+    color: #000000;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__about-company-images {
+    padding-bottom: 5%;
+}
+
+.main__order-background {
+    background-image: url("../img/order-background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__order-form-wrapper input {
+    text-align: center;
+    padding: 4%;
+    margin: 5% 0;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: none;
+    width: 80%;
+    outline: none;
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main__order-form-wrapper button {
+    text-align: center;
+    padding: 4%;
+    margin: 5% 0;
+    border-radius: 30px;
+    background-color: #ef7c48;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    width: 80%;
+    outline: none;
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main__order-form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__order-info-title {
+    color: #1dc21d;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.main__order-info-text {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 5%;
+}
+
+.main__order-info-wrapper {
+    padding: 5% 0;
+}
+
+.main__map-background {
+    background-image: url("../img/product-map.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.main__map-background iframe {
+    filter: grayscale(1);
+}
+
+.main__map .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main__breadcrumbs-bottom-list {
+    padding-left: 0;
+}
+
+.main__windows-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+
+.main__windows-block-first-text {
+    border-radius: 8px;
+    background-color: #007da9;
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.main__windows-block-second-text {
+    border-radius: 8px;
+    background-color: #dd2a1b;
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.main__windows-block-third-text {
+    border-radius: 8px;
+    background-color: #f9a01b;
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.main__windows-block-first-text a {
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__windows-block-second-text a {
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__windows-block-third-text a {
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main__windows-tel {
+    color: #ffffff;
+    font-family: "Gotham Pro Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.main__windows-email {
+    color: #ffffff;
+    font-family: "Gotham Pro Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.main__windows-text {
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 5%;
+}
+
+.main__windows-cost-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.main__windows-cost {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+a.main__windows-more-info {
+    color: #ffffff !important;
+    font-family: "Gotham Pro Medium";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.main__reviews-block-wrapper {
+    padding: 5% 0;
+}
+
+.main__page-navigation {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.main__review-form-background {
+    background-image: url("../img/review-background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__reveiw-form-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 90px;
+    text-align: center;
+}
+
+.main__reveiw-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.main__review-form-input-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__review-form-agree-wrapper {
+    display: flex;
+}
+
+.main__review-form-input-name {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: none;
+    text-align: center;
+    padding: 2% 10%;
+}
+
+.main__review-form-input-number {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: none;
+    text-align: center;
+    padding: 2% 10%;
+}
+
+.main__review-form-textarea {
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: none;
+    margin-top: 4%;
+}
+
+.main__review-form-agree-text {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.main__review-form-button-send {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: #ef7c48;
+    padding: 2% 10%;
+    width: 50%;
+    margin: 4% auto 4% auto;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.main__review-form-button-send:hover {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: #f2966c;
+    padding: 2% 10%;
+    width: 50%;
+    margin: 4% auto 4% auto;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.main__review-form-button-send:active {
+    color: #ffffff;
+    font-family: "Gotham Pro Medium";
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: #a75632;
+    padding: 2% 10%;
+    width: 50%;
+    margin: 4% auto 4% auto;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.main__review-form-agree-wrapper {
+    margin-top: 4%;
+}
+
+.main__review-form-agree-wrapper input {
+    margin: 0 1% 0 0;
+}
+
+.pagination {
+    width: 200px;
+}
+
+.main__about-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.main__about-text {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 5% 0;
+}
+
+.main__about-info span {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.main__about-info p {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 85%;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 5%;
+}
+
+.main__about-info-wrapper {
+    padding: 5% 0;
+}
+
+.main__about-image-wrapper {
+    padding-top: 5%;
+}
+
+.main__about-info {
+    margin-right: 1%;
+}
+
+.main__guarantees-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.main__guarantees-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.main__guarantees-block-title {
+    color: #151823;
+    font-family: "Gotham Pro Medium";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 1%;
+}
+
+.main__guarantees-block-text {
+    color: #7b7d84;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.svg-prev:hover {
+    fill: #1dc21d;
+    cursor: pointer;
+}
+
+.svg-next:hover {
+    fill: #1dc21d;
+    cursor: pointer;
+}
+
+.page-item-block:hover {
+    stroke: #151823;
+    transition: 0.5s;
+}
+
+.page-item-block-active:hover {
+    transition: 0.5s;
+}
+
+.page-item a {
+    text-decoration: none;
+}
+
+/* Медиавыражения-------------------------------------
+------------------------------------------------------
+------------------------------------------------------ */
+
+@media (max-width: 1199.98px) {
+
+    .main__header-logo-wrapper a img {
+        width: 100%;
+    }
+
+    .main__header-navigation-item a {
+        font-size: 10px;
+    }
+
+    .main__header-support-wrapper p {
+        font-size: 12px;
+    }
+
+    .main__header-support-wrapper a {
+        font-size: 16px;
+    }
+
+    .main__header-city-link {
+        font-size: 12px;
+    }
+
+    .main__menu-search-catalog-wrapper {
+        padding: 14px 20px;
+    }
+
+    .main__menu-search-catalog-wrapper a {
+        font-size: 10px;
+    }
+
+    .main__menu-search-search-wrapper a {
+        font-size: 12px;
+    }
+
+    .main__popular-title {
+        font-size: 45px;
+    }
+
+    .main__popular-block-wrapper h3 {
+        font-size: 16px;
+    }
+
+    .main__popular-block-wrapper a {
+        font-size: 12px;
+    }
+
+    .main__popular-block-wrapper p {
+        font-size: 10px;
+    }
+
+    .main__popular-block-wrapper p:last-child {
+        font-size: 22px;
+    }
+
+    .main__service-title {
+        font-size: 45px;
+    }
+
+    .main__service-block-wrapper h3 {
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .main__service-block-wrapper a {
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .main__service-block-wrapper p {
+        font-size: 12px;
+    }
+
+    .main__service-block-wrapper p:last-child {
+        font-size: 20px;
+    }
+
+    .main__advantages-title {
+        font-size: 45px;
+    }
+
+    .main__advantages-block-wrapper h3 {
+        font-size: 14px;
+    }
+
+    .main__advantages-block-wrapper p {
+        font-size: 14px;
+    }
+
+    .main__review-title {
+        font-size: 45px;
+    }
+
+    .main__review-title-wrapper {
+        padding: 0% 0 8% 0;
+    }
+
+    .main__review-block-image-wrapper {
+        padding-bottom: 2%;
+    }
+
+    .main__review-block-image-wrapper span {
+        font-size: 14px;
+    }
+
+    .main__review-block-text-wrapper h3 {
+        font-size: 14px;
+    }
+
+    .main__review-block-text-wrapper p:last-child {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .main__review-send-wrapper a {
+        font-size: 14px;
+    }
+
+    .main__guarantees-block-wrapper h3 {
+        font-size: 26px;
+    }
+
+    .main__guarantees-block-wrapper p {
+        font-size: 14px;
+    }
+
+    .main__guarantees-block-wrapper a {
+        font-size: 14px;
+    }
+
+    .main__review-send-wrapper a:last-child {
+        font-size: 14px;
+    }
+
+    h2.main__curtains-title {
+        font-size: 35px;
+    }
+
+    .main__curtains-block-first h3 {
+        font-size: 22px;
+    }
+
+    .main__curtains-block-first p {
+        font-size: 35px;
+    }
+
+    .main__curtains-block-first p:last-child {
+        font-size: 24px;
+    }
+
+    .main__curtains-cost-wrapper {
+        padding-bottom: 0;
+    }
+
+    .main__curtains-block-first button {
+        font-size: 12px;
+    }
+
+    .main__curtains-info-wrapper p {
+        font-size: 14px;
+    }
+
+    .main__examples-title {
+        font-size: 35px;
+    }
+
+    .main__about-company-title {
+        font-size: 35px;
+    }
+
+    .main__about-company-text p {
+        font-size: 14px;
+    }
+
+    .main__order-info-title {
+        font-size: 35px;
+    }
+
+    .main__order-info-text {
+        font-size: 14px;
+    }
+
+    .main__popular-title {
+        font-size: 35px;
+    }
+
+    .main__review-title {
+        font-size: 35px;
+    }
+
+    .main__curtains-title {
+        padding: 0 0 5% 0;
+    }
+
+    .main__windows-title {
+        font-size: 45px;
+    }
+
+    .main__windows-cost {
+        font-size: 35px;
+    }
+
+    .main__windows-more-info {
+        font-size: 16px;
+    }
+
+    .main__windows-text {
+        line-height: 22px;
+    }
+
+    .main__windows-image-wrapper img {
+        height: 90%;
+    }
+
+    .main__review-form-input-name {
+        padding: 2% 8%;
+    }
+
+    .main__review-form-input-number {
+        padding: 2% 8%;
+    }
+
+    .main__review-form-agree-text {
+        line-height: 14px;
+    }
+
+    .main__about-info span {
+        font-size: 65px;
+    }
+
+    .main__about-info p {
+        font-size: 75%;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+
+    .main__header-logo-wrapper a img {
+        width: 150%;
+    }
+
+    .main__header-menu-wrapper {
+        padding-right: 0;
+    }
+
+    .navbar {
+        margin-left: auto;
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+
+    .main__header-navigation-item .nav-link {
+        font-size: 12px;
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background-image: url("../img/bars.svg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .main__header-support-wrapper-mobile {
+        display: flex;
+        align-items: center;
+        margin-left: 10%;
+    }
+
+    .main__header-support-wrapper {
+        display: none;
+    }
+
+    .main__header-city-wrapper {
+        display: none;
+    }
+
+    .main__header-support-wrapper-mobile p {
+        color: #93959e;
+        font-family: "Gotham Pro";
+        font-size: 10px;
+        font-weight: 400;
+        padding-right: 10px;
+        cursor: default;
+    }
+
+    .main__header-support-wrapper-mobile a {
+        color: #151823;
+        font-family: "Gotham Pro Medium";
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .main__menu-search-catalog-wrapper a {
+        font-size: 7px;
+    }
+
+    .main__menu-search-catalog-wrapper {
+        padding: 15px 20px;
+    }
+
+    .main__menu-search-search-wrapper a {
+        font-size: 9px;
+    }
+
+    .main__menu-search-search-wrapper input {
+        font-size: 12px;
+    }
+
+    .main__menu-images-image-wrapper img {
+        padding-bottom: 5%;
+    }
+
+    .main__menu-images-image-wrapper:last-child img {
+        padding-bottom: 0;
+    }
+
+    .main__service-block-wrapper p:first-child {
+        padding-bottom: 20px;
+    }
+
+    .main__service-block-wrapper h3 {
+        padding-bottom: 20px;
+    }
+
+    .main__service-block-wrapper a {
+        padding-bottom: 20px;
+    }
+
+    .main__service-block-wrapper p {
+        line-height: 24px;
+    }
+
+    .main__service-block-wrapper p:last-child {
+        font-size: 24px;
+    }
+
+    .main__service-block-wrapper p:last-child {
+        padding-top: 20px;
+    }
+
+    .main__advantages-title {
+        font-size: 40px;
+    }
+
+    .main__advantages-block-wrapper {
+        text-align: center;
+    }
+
+    .main__advantages-block-wrapper img {
+        padding-bottom: 5%;
+        height: 120px;
+        object-fit: contain;
+    }
+
+    .main__advantages-block-wrapper h3 {
+        font-size: 20px;
+    }
+
+    .main__advantages-block-wrapper p {
+        font-size: 16px;
+    }
+
+    .main__advantages-block-wrapper {
+        padding-bottom: 5%;
+    }
+
+    .main__advantages-block-wrapper:last-child {
+        padding-bottom: 0;
+    }
+
+    .main__review {
+        padding: 10% 0;
+    }
+
+    .main__review-title {
+        font-size: 35px;
+    }
+
+    .main__review-slider-wrapper img {
+        width: 35%;
+    }
+
+    .main__review-block-text-wrapper h3 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .main__review-block-text-wrapper p:last-child {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .main__guarantees-block-wrapper {
+        padding-bottom: 5%;
+    }
+
+    .main__guarantees {
+        padding-bottom: 0;
+    }
+
+    .main__curtains-cost-wrapper {
+        padding-top: 5%;
+    }
+
+    .main__about-company-contacts {
+        margin: 5% auto 0 auto;
+        width: 95%;
+    }
+
+    .main__about-company-image-wrapper img {
+        padding-bottom: 8%;
+    }
+
+    .main__order-info-title {
+        text-align: center;
+    }
+
+    .main__order-info-text {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .main__order-form-wrapper {
+        align-items: center;
+    }
+
+    .main__order-background {
+        background-position: center;
+    }
+
+    .main__order-form-wrapper input {
+        width: 50%;
+        margin: 2% 0;
+        padding: 3%;
+    }
+
+    .main__order-form-wrapper button {
+        width: 50%;
+        margin: 2% 0;
+        padding: 3%;
+    }
+
+    .main__order-form-wrapper {
+        padding-top: 5%;
+    }
+
+    .main__windows-block-first-text {
+        width: 96%;
+        margin: 0 auto 4% auto;
+    }
+
+    .main__windows-block-second-text {
+        width: 96%;
+        margin: 0 auto 4% auto;
+    }
+
+    .main__windows-block-third-text {
+        width: 96%;
+        margin: 0 auto 4% auto;
+    }
+
+    .main__windows-image-wrapper img {
+        height: 95%;
+    }
+
+    .breadcrumb {
+        margin-bottom: 0;
+    }
+
+    .main__windows-title {
+        font-size: 35px;
+    }
+
+    .main__reveiw-form-title {
+        font-size: 35px;
+    }
+
+    .main__review-form-input-name {
+        padding: 2% 5%;
+        font-size: 14px;
+    }
+
+    .main__review-form-input-number {
+        padding: 2% 5%;
+        font-size: 14px;
+    }
+
+    .main__review-form-button-send {
+        font-size: 14px;
+    }
+
+    .main__about-info span {
+        font-size: 55px;
+    }
+
+    .main__about-info p {
+        padding: 5% 0;
+    }
+
+    .main__about-info {
+        margin-right: 0;
+    }
+
+    .main__guarantees-wrapper {
+        flex-direction: column;
+    }
+
+    .col-lg-2.main__guarantees-image-wrapper {
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .main__guarantees-wrapper:last-child {
+        padding-bottom: 5%;
+    }
+
+    .main__footer-logo-wrapper a img {
+        width: 50%;
+    }
+
+    .main__footer-logo-wrapper {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    .main__footer-block-first-wrapper a {
+        text-align: center;
+    }
+
+    .main__footer-block-second-wrapper a {
+        text-align: center;
+    }
+
+    .main__footer-contacts-wrapper {
+        justify-content: center;
+    }
+
+    .main__footer-contacts-social-wrapper {
+        padding-top: 2%;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .main__header-logo-wrapper a img {
+        width: 120%;
+    }
+
+    .main__header-support-wrapper-mobile p {
+        text-align: center;
+    }
+
+    .main__header-support-wrapper-mobile {
+        margin-left: 5%;
+    }
+
+    .main__header-support-wrapper-mobile a {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .main__menu-search-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__menu-search-catalog-wrapper {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 2%;
+        padding: 14px 20px;
+    }
+
+    .main__menu-search-catalog-wrapper img {
+        width: 25px;
+    }
+
+    .main__menu-search-catalog-wrapper a {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .main__menu-search-search-wrapper {
+        width: 100%;
+        padding: 12px 20px;
+    }
+
+    .main__menu-search-search-wrapper a {
+        font-size: 14px;
+        width: 35%;
+    }
+
+    .main__menu-search-search-wrapper input {
+        font-size: 14px;
+    }
+
+    .main__popular-title {
+        font-size: 35px;
+    }
+
+    .main__service-title {
+        font-size: 35px;
+    }
+
+    .main__service-block-wrapper p:first-child {
+        padding-bottom: 10px;
+    }
+
+    .main__service-block-wrapper h3 {
+        padding-bottom: 10px;
+    }
+
+    .main__service-block-wrapper a {
+        padding-bottom: 10px;
+    }
+
+    .main__service-block-wrapper p {
+        line-height: 14px;
+    }
+
+    .main__service-block-wrapper p:last-child {
+        padding-top: 10px;
+    }
+
+    .main__advantages-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .main__advantages-block-wrapper h3 {
+        font-size: 18px;
+    }
+
+    .main__advantages-block-wrapper p {
+        font-size: 14px;
+    }
+
+    .main__advantages-block-wrapper img {
+        height: 100px;
+    }
+
+    .main__review-title {
+        font-size: 25px;
+    }
+
+    .main__review-block-image-wrapper img {
+        width: 25%;
+        height: 25%;
+    }
+
+    .main__review-block-text-wrapper h3 {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .main__review-block-text-wrapper p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .main__review-block-text-wrapper p:last-child {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .main__review-send-wrapper {
+        justify-content: center;
+    }
+
+    .main__review-send-wrapper a {
+        padding: 2%;
+    }
+
+    .main__review-send-wrapper a:last-child {
+        padding: 2%;
+    }
+
+    .main__review {
+        padding: 5%;
+    }
+
+    .main__footer-logo-wrapper a img {
+        width: 50%;
+    }
+
+    .main__footer-block-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__footer-logo-wrapper {
+        text-align: center;
+    }
+
+    .main__footer-block-first-wrapper a {
+        font-size: 16px;
+    }
+
+    .main__footer-block-second-wrapper a {
+        font-size: 16px;
+    }
+
+    .main__footer-contacts-wrapper {
+        justify-content: center;
+    }
+
+    .main__footer-contacts-wrapper a img {
+        width: 50%;
+    }
+
+    .main__footer-contacts-wrapper a {
+        font-size: 24px;
+    }
+
+    .main__footer-block-first-wrapper {
+        padding-top: 2%;
+    }
+
+    .main__footer-block-first-wrapper a {
+        text-align: center;
+    }
+
+    .main__footer-block-second-wrapper {
+        padding: 2% 0;
+    }
+
+    .main__footer-block-second-wrapper a {
+        text-align: center;
+    }
+
+    .main__examples-title {
+        font-size: 30px;
+    }
+
+    .main__about-company-title {
+        font-size: 30px;
+    }
+
+    h2.main__curtains-title {
+        font-size: 30px;
+        padding: 5% 0;
+    }
+
+    .main__breadcrumbs-main {
+        display: none;
+    }
+
+    .main__breadcrumbs-bottom {
+        display: none;
+    }
+
+    .main__windows-title {
+        font-size: 30px;
+    }
+
+    .main__windows-block-first-text {
+        width: 95%;
+    }
+
+
+    .main__windows-block-second-text {
+        width: 95%;
+    }
+
+
+    .main__windows-block-third-text {
+        width: 95%;
+    }
+
+    .main__windows-cost {
+        font-size: 30px;
+    }
+
+    .main__windows-text {
+        font-size: 14px;
+    }
+
+    .main__windows-cost-wrapper {
+        padding-top: 2%;
+    }
+
+    .main__windows-text {
+        padding-top: 2%;
+    }
+
+    .main__reveiw-form-title {
+        font-size: 30px;
+    }
+
+    .main__review-form-input-wrapper {
+        flex-direction: column;
+    }
+
+    .main__review-form-input-name {
+        margin-bottom: 5%;
+    }
+
+    .main__review-form-agree-text {
+        font-size: 10px;
+    }
+
+    .main__about-info span {
+        font-size: 45px;
+        display: block;
+        text-align: center;
+    }
+
+    .main__about-info p {
+        text-align: center;
+        padding: 5% 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .main__header-support-wrapper-mobile {
+        display: none;
+    }
+
+    .main__header-navigation-item .nav-link {
+        font-size: 14px;
+    }
+
+    .main__popular-title {
+        text-align: center;
+    }
+
+    .main__popular-block-wrapper p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .main__popular-block-wrapper h3 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .main__popular-block-wrapper a {
+        display: block;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .main__popular-block-wrapper p:last-child {
+        font-size: 35px;
+        padding-top: 35px;
+    }
+
+    .main__service-title {
+        text-align: center;
+        font-size: 45px;
+        padding: 5% 0;
+    }
+
+    .main__service-block-wrapper p:first-child {
+        font-size: 14px;
+    }
+
+    .main__service-block-wrapper h3 {
+        font-size: 18px;
+    }
+
+    .main__service-block-wrapper a {
+        font-size: 14px;
+    }
+
+    .main__service-block-wrapper p {
+        line-height: 18px;
+    }
+
+    .main__advantages-title {
+        text-align: center;
+    }
+
+    .main__guarantees-block-wrapper h3 {
+        text-align: center;
+    }
+
+    .main__guarantees-block-wrapper a {
+        display: block;
+        text-align: center;
+    }
+
+    .main__examples-title {
+        text-align: center;
+    }
+
+    .main__about-company-title {
+        text-align: center;
+    }
+
+    .main__breadcrumbs-main {
+        display: none;
+    }
+
+    .main__breadcrumbs-bottom {
+        display: none;
+    }
+
+    .main__windows-cost {
+        font-size: 26px;
+    }
+
+    .main__windows-text {
+        font-size: 12px;
+    }
+
+    .main__about-title {
+        text-align: center;
+        padding: 2% 0;
+    }
+
+    .main__about-info p {
+        font-size: 100%;
+        width: 75%;
+        margin: auto;
+    }
+
+    .main__guarantees-title {
+        text-align: center;
+    }
+
+    .main__guarantees-block-title {
+        text-align: center;
+    }
+
+    .main__guarantees-block-text {
+        text-align: center;
+    }
+
+    .main__review-slider-wrapper {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1px) and (max-width: 575.98px) {
+
+    .main__menu-search-search-wrapper a {
+        display: none;
+    }
+
+    .main__menu-search-search-wrapper input {
+        border: none;
+        width: 100%;
+    }
+
+    .main__popular-title {
+        font-size: 26px;
+    }
+
+    .main__popular-block-wrapper p {
+        font-size: 14px;
+    }
+
+    .main__popular-block-wrapper h3 {
+        font-size: 24px;
+    }
+
+    .main__popular-block-wrapper a {
+        font-size: 14px;
+    }
+
+    .main__popular-block-wrapper p:last-child {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .main__service-title {
+        font-size: 30px;
+        line-height: 30px;
+        padding: 10% 0;
+    }
+
+    .main__service-block-wrapper {
+        flex-direction: column;
+    }
+
+    .main__service-block-wrapper .col-lg-6 {
+        padding: 0 !important;
+    }
+
+    .main__service-block-wrapper p:first-child {
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .main__service-block-wrapper h3 {
+        text-align: center;
+    }
+
+    .main__service-block-wrapper a {
+        display: block;
+        text-align: center;
+    }
+
+    .main__service-block-wrapper p {
+        text-align: center;
+    }
+
+    .main__service-block-wrapper p:last-child {
+        text-align: center;
+    }
+
+    .main__service-block-wrapper {
+        padding-bottom: 10%;
+    }
+
+    .main__advantages-title {
+        font-size: 30px;
+        line-height: 30px;
+        padding: 10% 0;
+    }
+
+    .main__review {
+        padding: 10% 0;
+    }
+
+    .main__review-title {
+        font-size: 24px;
+    }
+
+    .main__review-send-wrapper a {
+        font-size: 12px;
+    }
+
+    .main__review-send-wrapper a:last-child {
+        font-size: 12px;
+    }
+
+    .main__review-send-wrapper {
+        padding: 10% 0 0 0;
+    }
+
+    .main__guarantees-block-wrapper h3 {
+        font-size: 24px;
+    }
+
+    .main__guarantees-block-wrapper p {
+        font-size: 12px;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .main__guarantees-block-wrapper {
+        padding-bottom: 10%;
+    }
+
+    .main__footer-contacts-wrapper p {
+        font-size: 12px;
+    }
+
+    .main__footer-contacts-wrapper a {
+        font-size: 16px;
+    }
+
+    h2.main__curtains-title {
+        font-size: 22px;
+    }
+
+    .main__curtains-cost-wrapper {
+        flex-direction: column;
+    }
+
+    .main__curtains-block-first h3 {
+        text-align: center;
+    }
+
+    .main__curtains-block-first p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main__curtains-block-first p:last-child {
+        text-align: center;
+    }
+
+    .main__curtains-block-first button {
+        margin-bottom: 5%;
+    }
+
+    .main__curtains-info-wrapper p {
+        text-align: center;
+    }
+
+    .main__examples-title {
+        font-size: 24px;
+    }
+
+    .main__about-company-title {
+        font-size: 24px;
+    }
+
+    .main__about-company-text p {
+        text-align: center;
+    }
+
+    .main__about-company-adress-title {
+        text-align: center;
+    }
+
+    .main__about-company-adress-text {
+        text-align: center;
+    }
+
+    .main__about-company-tel-sale-title {
+        text-align: center;
+    }
+
+    .main__about-company-tel-sale-title a {
+        text-align: center;
+    }
+
+    .main__about-company-contacts a {
+        display: block;
+        text-align: center;
+    }
+
+    .main__about-company-tel-control-title {
+        text-align: center;
+    }
+
+    .main__about-company-email-title {
+        text-align: center;
+    }
+
+    .main__order-form-wrapper input {
+        width: 75%;
+    }
+
+    .main__order-form-wrapper button {
+        width: 75%
+    }
+
+    .main__order-info-title {
+        font-size: 30px;
+    }
+
+    .main__order-info-text {
+        font-size: 16px;
+    }
+
+    .main__map-background {
+        height: 200px;
+    }
+
+    .main__map-background iframe {
+        height: 200px;
+    }
+
+    .main__breadcrumbs-main {
+        display: none;
+    }
+
+    .main__breadcrumbs-bottom {
+        display: none;
+    }
+
+    .main__curtains-title {
+        text-align: center;
+        padding: 5% 0;
+    }
+
+    .main__curtains-block-first p:last-child {
+        font-size: 18px;
+    }
+
+    .main__curtains-block-first button {
+        margin-top: 5%;
+        line-height: 35px;
+    }
+
+    .main__examples-title {
+        margin: 5% 0;
+    }
+
+    .main__windows-cost-wrapper {
+        padding-top: 5%;
+    }
+
+    .main__windows-text {
+        padding-top: 5%;
+    }
+
+    .main__windows-block-first-text {
+        width: 90%;
+    }
+
+    .main__windows-cost {
+        font-size: 22px;
+    }
+
+    .main__reveiw-form-title {
+        font-size: 16px;
+    }
+
+    .main__reveiw-form-wrapper {
+        width: 90%;
+    }
+
+    .main__review-form-button-send {
+        width: 75%;
+        padding: 4% 10%;
+        margin: 4% auto 8% auto;
+    }
+
+    .main__review-form-background {
+        background-position: center;
+    }
+
+    .main__about-info-wrapper {
+        padding: 10% 0;
+    }
+
+    .main__about-info span {
+        padding: 5% 0;
+    }
+
+    .main__guarantees-block-title {
+        padding-bottom: 5%;
+    }
+
+    .main__guarantees-wrapper {
+        padding: 5% 0;
+    }
+
+    .main__header-logo-wrapper a img {
+        width: 100%;
+    }
+
+    .main__review-form-input-name {
+        padding: 4%;
+    }
+
+    .main__review-form-input-number {
+        padding: 4%;
+    }
+
+    .main__menu-search-search-wrapper input {
+        padding-left: 0;
+    }
+}
