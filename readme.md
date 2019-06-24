@@ -1,18 +1,20 @@
-Название сайта: **Пальмира**
+Название сайта: **Спецмастер**
 
 ------------
 
-Главная страница сайта: 🖥️ https://ioinitid.github.io/palmira/index.html
+Главная страница сайта: 🖥️ https://ioinitid.github.io/specmaster/index.html
 
-Страница с каталогами товаров: 🐱 https://ioinitid.github.io/palmira/catalog.html
+Страница о проекте: 🐱 https://ioinitid.github.io/specmaster/about.html
 
-Страница с таваром: 🌳 https://ioinitid.github.io/palmira/product.html
+Страница гарантии: 🌳 https://ioinitid.github.io/specmaster/guarantees.html
 
-Страница с видео и отзывами: 🦊 https://ioinitid.github.io/palmira/video.html
+Страница отзывы: 🦊 https://ioinitid.github.io/specmaster/reviews.html
 
-Страница с контактами: 📝 https://ioinitid.github.io/palmira/contacts.html
+Страница пластиковые окна: 📝 https://ioinitid.github.io/specmaster/windows.html
+
+Страница рулонные шторы: 🦝 https://ioinitid.github.io/specmaster/product.html
 
 ------------
 
 Сделано с ❤️ в [WEB-ELITIT.RU](https://www.web-elitit.ru "Web-elitit.ru")
-> Дизайн сайта: **WEB-ELITIT.RU: Пальмира**
+> Дизайн сайта: **WEB-ELITIT.RU: Спецмастер**
